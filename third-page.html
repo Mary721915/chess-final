@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style3.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container2">
+            <div id="image" style="float:left;">
+                <img src="chess3.png">
+            </div>
+        
+           <h1>Chess experience</h1>
+           <h3 id="text">this is basic information feilds</h3>
+           <div class="col-75">
+            <select id="knowledge" name="level of knowledge">
+              <option value="level of knowledge">level of knowledge</option>
+              <option value="level of knowledge">Beginner</option>
+              <option value="Intermediate">Intermediate</option>
+              <option value="profesional">Profesional</option>
+            </select>
+          
+          <select id="character" name="character">
+            <option value="choose">choose your character</option>
+            <option value="choise1">Magnus Carlsen</option>
+            <option value="choise2">Wilhelm  Steinitz </option>
+            <option value="choise3">Bobby Fischer</option>
+            <option value="choise4">Bobby Fischer</option>
+          </select>
+          <h1 id="mini">have you participated in the RedBerry Championship</h1>
+          <label for="">
+            <input id="input" type="radio" name="yes" value="yes">
+            Yes
+        </label>
+        <label for="">
+            <input id="input" type="radio" name="no" value="no">
+            No
+        </label>
+        <input type="button" onclick="document.location.href='second-page.html';"  class="button" value="Back"> 
+        <input type="button" onclick="document.location.href='done.html';" class="button" value="Done"> 
+
+        </div>
+    </body>
+
+    <script>
+        let done = document.getElementsByClassName("done")
+        
+        let back = document.getElementsByClassName("back")
+    </script>
+</html>

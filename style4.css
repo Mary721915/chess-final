@@ -1,0 +1,29 @@
+img{
+    margin-left:650px;
+    margin-top:50px;
+}
+
+h3{
+    color:gray;
+    font-family: 'Nunito', sans-serif;
+    margin-left:540px;
+    margin-top:50px;
+}
+
+#done_text{
+    font-family: 'Nunito', sans-serif;
+    margin-left:500px;
+    margin-top:30px;
+}
+
+#done{
+    background-color:cyan;
+    font-family: 'Nunito', sans-serif;
+    border:none;
+    text-align: center;
+    margin-left:710px;
+    margin-top:60px;
+    width:150px;
+    height:50px;
+    font-size:30px;
+}
